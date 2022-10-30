@@ -4,6 +4,8 @@
 
 package main
 
+import "fmt"
+
 func main() {
-	println("Hi WebAssembly! 5+5=%d", 5+5)
+	fmt.Printf("Hi WebAssembly! 5+5=%d", 5+5)
 }
