@@ -1,7 +1,5 @@
 //go:build js && wasm
 
-//go:generate cp /usr/local/tinygo/targets/wasm_exec.js .
-
 package main
 
 import "fmt"
