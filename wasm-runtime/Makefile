@@ -1,6 +1,3 @@
-build:
-	GOOS=js GOARCH=wasm go build -o main.wasm main.go
-
 docker-build:
 	docker buildx build \
 	--platform=wasi/wasm32 \
@@ -12,5 +9,3 @@ docker-run:
 	--runtime=io.containerd.wasmedge.v1 \
 	--platform=wasi/wasm32 \
 	felipecruz/go-wasm
-
-.PHONY: build

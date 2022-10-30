@@ -7,5 +7,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Hi WebAssembly! 5+5=%d", 5+5)
+	fmt.Printf("Hi WebAssembly! 5+5=%d\n", 5+5)
 }
